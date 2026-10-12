@@ -195,12 +195,3 @@ traffic, and waking it takes about a minute.
   Render counts those as traffic, so the server should stay awake.
 - If the server does restart while a board is open, the board shows
   "Reconnecting...", connects again by itself and reloads.
-
-## Things I would add next
-
-- Dragging columns to reorder them
-- Custom labels for each board
-- Notifications when a card is assigned to me
-- Running more than one server, using the Socket.IO Redis adapter so a change
-  saved on one server reaches browsers connected to another
-- Automated tests for the card ordering
